@@ -1,0 +1,19 @@
+/* Practical Custom Selectors */
+
+@custom-selector :--clickable a, area, button, input, label, select, textarea, [tabindex];
+
+@custom-selector :--control button, input, select, textarea;
+
+@custom-selector :--control-text button, [type="button"], [type="date"], [type="datetime"], [type="datetime-local"], [type="email"], [type="month"], [type="number"], [type="password"], [type="reset"], [type="search"], [type="submit"], [type="tel"], [type="text"], [type="time"], [type="url"], [type="week"], select, textarea;
+
+@custom-selector :--control-button button, [type="button"], [type="reset"], [type="submit"];
+
+@custom-selector :--enter :hover, :focus;
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+@custom-selector :--list ol, ul;
+
+@custom-selector :--markup code, kbd, pre, samp;
+
+@custom-selector :--media audio, canvas, iframe, img, svg, video;

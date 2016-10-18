@@ -1,0 +1,29 @@
+{
+  "name": "practical-custom-selectors",
+  "version": "1.0.0",
+  "description": "realistic and reusable custom selectors",
+  "main": "selectors.css",
+  "scripts": {
+    "test": "stylelint selectors.css"
+  },
+  "repository": "jonathantneal/practical-custom-selectors",
+  "keywords": [
+    "css",
+    "custom",
+    "selectors",
+    "reusable",
+    "object",
+    "oriented"
+  ],
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
+  "license": "CC0-1.0",
+  "bugs": "https://github.com/jonathantneal/practical-custom-selectors/issues",
+  "homepage": "https://github.com/jonathantneal/practical-custom-selectors#readme",
+  "devDependencies": {
+    "stylelint": "^7.4.2",
+    "stylelint-config-10up": "github:jonathantneal/stylelint-config-10up"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-10up"
+  }
+}
